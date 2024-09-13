@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, pkgs-stable, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -37,6 +37,7 @@
     pkgs.neovim
     pkgs.ripgrep
     pkgs.fd
+    pkgs.lazygit
     pkgs.tmux
     pkgs.neofetch
 
@@ -54,6 +55,8 @@
     pkgs.python311
     pkgs.python311Packages.pip
     pkgs.elixir_1_15
+
+    pkgs-stable.eza
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
