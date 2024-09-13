@@ -95,6 +95,13 @@
     GOPATH="/Users/tercyduck/www/go";
   };
 
+  home.sessionPath = ["/Users/tercyduck/www/go/bin"];
+
+  home.shellAliases = {
+    v = "nvim";
+    ls = "eza";
+  };
+
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
   
