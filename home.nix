@@ -96,7 +96,10 @@
     GOPATH="/Users/tercyduck/www/go";
   };
 
-  home.sessionPath = ["/Users/tercyduck/www/go/bin"];
+  home.sessionPath = [
+    "/Users/tercyduck/www/go/bin"
+    "/Applications/Docker.app/Contents/Resources/bin"
+  ];
 
   home.shellAliases = {
     vim = "nvim";
