@@ -57,6 +57,7 @@
     pkgs.elixir_1_15
 
     pkgs-stable.eza
+    pkgs-stable.nginx
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
@@ -98,7 +99,7 @@
   home.sessionPath = ["/Users/tercyduck/www/go/bin"];
 
   home.shellAliases = {
-    v = "nvim";
+    vim = "nvim";
     ls = "eza";
   };
 
