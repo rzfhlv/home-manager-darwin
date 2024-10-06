@@ -58,6 +58,9 @@
 
     pkgs-stable.eza
     pkgs-stable.nginx
+
+    pkgs-stable.btop
+    pkgs-stable.bat
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
@@ -104,6 +107,8 @@
   home.shellAliases = {
     vim = "nvim";
     ls = "eza";
+    htop = "btop";
+    cat = "bat";
   };
 
   # Let Home Manager install and manage itself.
