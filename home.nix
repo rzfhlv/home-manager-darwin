@@ -56,7 +56,7 @@
     pkgs.python311Packages.pip
     pkgs.elixir_1_15
 
-    pkgs-stable.eza
+    pkgs-stable.lsd
     pkgs-stable.nginx
 
     pkgs-stable.btop
@@ -106,7 +106,7 @@
 
   home.shellAliases = {
     vim = "nvim";
-    ls = "eza";
+    ls = "lsd";
     htop = "btop";
     cat = "bat";
   };
