@@ -102,6 +102,7 @@
   home.sessionPath = [
     "/Users/tercyduck/www/go/bin"
     "/Applications/Docker.app/Contents/Resources/bin"
+    "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
   ];
 
   home.shellAliases = {
